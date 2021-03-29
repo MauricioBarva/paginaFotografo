@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background: url('../img/bg-header.jpg') #000000;
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondo-oscuro {
+    background-color: rgba(12, 12, 12, 0.7);
+}
+
+
+header .navbar-brand {
+    color: #ffffff !important;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header .navegador .btn-hamburguesa {
+    background-color: rgba(255, 255, 255, 0.801);
+    outline: none;
+    border: 2px solid #00000080;
+}
+
+header .contenedor-header {
+    min-height: 100vh;
+    height: 100vh;
+}
+
+
+header .contenedor-header .posicion-persona {
+    position: relative;
+    top: 50%;
+    margin-top: -215px;
+}
+
+header .contenedor-header .posicion-persona .imagen-persona {
+    margin-bottom: 20px;
+}
+
+header .contenedor-header .posicion-persona .imagen-persona img {
+    vertical-align: top;
+    border-radius: 100%;
+    border: 4px solid #ffffff;
+}
+
+header .contenedor-header .posicion-persona .contenedor-persona .textos-persona h1 {
+    font-size: 50px !important;
+    margin-bottom: 25px;
+}
+
+.main .welcome .color-bar {
+    background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%);
+}
+
+.main .failure {
+    padding: 80px 0px;
+    background-color: #ffffff;
+}
+
+
+.main .failure .failure-info .failure-img {
+    width: 100%;
+}
+
+.main .failure .failure-info .failure-img img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 4px;
+}
+
+.main .failure .failure-info .failure-text h4 {
+    font-size: 35px;
+    line-height: 45px;
+    color: var(--title-color);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main .failure .failure-info .failure-text .btn-acerca {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    border: 2px solid var(--opposite-color);
+    background: #35a22c;
+}
+
+.main .failure .failure-info .failure-text .btn-acerca:hover {
+    background-color: #0ea8cf;
+}
+
+
+.main .available {
+    background: url('../img/available-hire.jpg') #000;
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.main .available .container {
+    padding: 110px 0 120px;
+
+}
+
+.main .available .available-info .available-title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.main .available .available-info .available-title h4 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.main .available .available-info .available-title {
+    font-weight: 600;
+}
+
+.main .available .what-can-hire {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .available .what-can-hire .skill {
+    width: 32%;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.main .available .what-can-hire .skill:hover {
+    background: rgba(0, 0, 0, 0.9);
+    transition: all ease-in .2s;
+}
+
+.main .available .what-can-hire .skill i {
+    font-size: 43px;
+    color: #35a22c;
+}
+
+.main .available .what-can-hire .skill h4 {
+    color: #ffffff;
+    margin: 20px 0px;
+}
+
+.main .available .what-can-hire .skill p {
+    color: #ffffff;
+
+}
+
+.main .i-love {
+    padding: 80px 0px;
+}
+
+.main .i-love .i-love-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main .i-love .i-love-text h3 {
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--title-color);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.main .i-love .i-love-text p {
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main .i-love .project-nav {
+    justify-content: center;
+    border-bottom: none !important;
+}
+
+.main .i-love .project-nav .links-project {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #000000;
+    padding: 8px 30px;
+    margin: 0px 8px;
+
+}
+
+.main .i-love .project-nav .active {
+    background: #35a22c;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.main .i-love .imagenes-ilove {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+}
+
+.main .i-love .imagenes-ilove .imagen-ilove {
+    width: 32%;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.main .i-love .imagenes-ilove .imagen-ilove img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 6px;
+}
+
+.fondo-experiences {
+    background-color: rgba(12, 12, 12, 0.7);
+    padding: 80px 0px;
+}
+
+.main .experiences {
+    background: url('../img/experiences.jpg') #000000;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main .experiences .experiences-info {
+    width: 47%;
+}
+
+.main .experiences .contenido-experiencia {
+    border-bottom: 1px solid #ffffff3d;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.main .experiences .contenido-experiencia .año {
+    border: 2px solid #35a22c;
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main .experiences .contenido-experiencia .titulo-logrado {
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.main .experiences .experiences-info .title-exp {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.main .what-they-says {
+    padding: 80px 0px;
+}
+
+.main .what-they-says .what-they-info {
+    text-align: center;
+}
+
+.main .what-they-says .what-they-info h4 {
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--title-color);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.main .what-they-says .imagenes-carousel{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.main .what-they-says .imagenes-carousel .carousel-imagen{
+    width: 31%;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 30px 40px;
+}
+
+.main .what-they-says .imagenes-carousel .carousel-imagen img{
+    vertical-align: top;
+    width: 60px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.main .what-they-says .imagenes-carousel .carousel-imagen h4{
+    color: #35a22c;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main .what-they-says .indicator{
+    background:#ccc;
+    width: 20px;
+    margin: 0px 6px;
+   
+}
+.main .what-they-says .slide-indicator .active{
+    background: #35a22c;
+    opacity: 1 !important;
+}
+
+footer{
+    background:#222222;
+    text-align: center;
+    color: #fff;
+}
+
+footer .redes-sociales{
+    padding: 40px 0px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.247);
+   
+}
+
+footer .redes-sociales a {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0px 6px;
+    border: 1px solid rgba(204, 204, 204, 0.247);
+    padding:10px 15px;
+    border-radius: 100%;
+}
+
+footer .derechos-reservados{
+    padding: 15px 0px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1000px){
+    .main .experiences .experiences-info {
+        width: 100%;
+    }
+    .main .experiences .experiences-info .title-exp {
+        margin: 20px 0px;
+        font-size: 35px;
+        font-weight: 700;
+        border: 1px solid #ffffff80;
+        display: inline-block;
+        padding:6px;
+    }
+    .main .what-they-says .imagenes-carousel{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .main .what-they-says .imagenes-carousel .carousel-imagen{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
